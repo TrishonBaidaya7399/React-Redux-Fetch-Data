@@ -1,6 +1,7 @@
 import reactLogo from './assets/react.svg'
 import reduxLogo from './assets/redux logo.png'
 import './App.css'
+import ToDos from './Components/Todos/ToDos'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       </div>
       <h1>React Redux Fetching Data</h1>
       <div className="card">
+        <ToDos/>
       </div>
     </>
   )
